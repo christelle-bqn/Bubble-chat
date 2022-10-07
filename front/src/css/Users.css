@@ -1,0 +1,26 @@
+.users-container {
+  background-color: #fff;
+  height: 824px;
+  max-height: 824px;
+  width: 361px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.users-list {
+  overflow-y: scroll;
+  height: 50%;
+  width: "100%";
+}
+
+.username-container {
+  background-color: #f4f5fa;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+}

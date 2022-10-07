@@ -1,0 +1,30 @@
+.rooms-container {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+}
+
+.rooms-list {
+  overflow-y: scroll;
+  width: "100%";
+  max-height: 250px;
+}
+
+.rooms-list-room {
+  display: "flex";
+  flex-direction: "row";
+  align-items: "center";
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.rooms-list-room:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(45, 133, 182, 1) 0%,
+    rgba(38, 62, 181, 1) 54%,
+    rgba(32, 1, 180, 1) 100%
+  );
+  color: #fff;
+}
